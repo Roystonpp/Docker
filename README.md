@@ -32,3 +32,4 @@ Look for the container with the image named "nginx". Under the "ports" header of
 ```
 localhost:<port_number>
 ```
+The message "Welcome to nginx!" should appear.
