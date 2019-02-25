@@ -20,3 +20,4 @@ After the nginx image has been pulled type:
 ```
 docker images
 ```
+You will see the nginx image in your repository
