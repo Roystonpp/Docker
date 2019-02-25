@@ -16,3 +16,7 @@ Alternativley you can just run this command to pull the nginx image from the doc
 ```
 docker pull nginx
 ```
+After the nginx image has been pulled type:
+```
+docker images
+```
