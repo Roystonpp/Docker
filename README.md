@@ -20,4 +20,15 @@ After the nginx image has been pulled type:
 ```
 docker images
 ```
-You will see the nginx image in your repository
+You will see the nginx image in your repository. Run
+```
+docker container run -d -P nginx
+```
+After this type:
+```
+docker ps --all
+```
+Look for the container with the image named "nginx". Under the "ports" header of the container copy the port number and enter into your browser.
+```
+localhost:<port_number>
+```
